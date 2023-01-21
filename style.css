@@ -25,6 +25,20 @@
     font-size: 2em;
 }
 
+.upper{
+    text-transform: uppercase;
+}
+
+
+.contato h2 {
+    color: white;
+    letter-spacing: 2px;
+  }
+
+  .contato p{
+    color:aliceblue;
+  }
+
 
 
 .background-img{
@@ -47,7 +61,7 @@ color:white;
 
   .contato{
     height: 200px;
-    background-color: green;
+    background-color: rgb(122, 141, 122);
   }
 
   .btn-whats{ 
@@ -82,8 +96,8 @@ color:white;
     font-family: 'Inter', sans-serif;
 }
 
-.text-banner{
-  
+.card{
+  width: 15em;
 }
 
 .textbanner p{
@@ -113,9 +127,18 @@ text-align: center;
    
   }
 
+  .text-banner{
+    width: 90%;
+    font-size: 0.6;
+  }
 
-  .contato h1 .contato p {
-    font-size: 0.5em;
+
+  .contato h2 {
+    font-size: 0.8em;
+  }
+
+  .contato p{
+    font-size: 0.8em;
   }
 
 }
