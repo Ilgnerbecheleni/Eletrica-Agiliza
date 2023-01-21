@@ -12,7 +12,32 @@
     text-decoration: none;
     letter-spacing: 4px;
     text-transform:uppercase ;
-    color:yellow;
-    font-size: 1.4em;
+     color:rgb(155, 155, 26);
+    font-size: 1em;
     font-family: 'Inter', sans-serif;
+}
+
+
+@media only screen and (max-width: 600px) {
+  /* CSS aqui */
+.header-nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+   
+}
+
+.header-nav li{
+   margin-bottom: 8px;
+}
+
+.header-nav li a{
+    text-decoration: none;
+    letter-spacing: 5px;
+    text-transform:uppercase ;
+    color:rgb(155, 155, 26);
+    font-size: 0.7em;
+    font-family: 'Inter', sans-serif;
+}
+
 }
