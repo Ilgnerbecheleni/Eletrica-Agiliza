@@ -1,0 +1,18 @@
+.header-nav{
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+.header-nav li{
+    list-style: none;
+}
+
+.header-nav li a{
+    text-decoration: none;
+    letter-spacing: 4px;
+    text-transform:uppercase ;
+    color:yellow;
+    font-size: 1.4em;
+    font-family: 'Inter', sans-serif;
+}
