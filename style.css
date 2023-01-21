@@ -17,6 +17,28 @@
     font-family: 'Inter', sans-serif;
 }
 
+.title{
+    color:white;
+}
+
+.background-img{
+    width: 100vw;
+height: 90vh;
+    background: #000 url('./imagens/solucoes.png');
+    background-repeat: no-repeat; /* impede que a imagem se repita */
+    background-size: cover; /* ajusta a imagem para cobrir o elemento */
+
+  position: relative;
+}
+
+.background-img .textbanner{
+   
+font-weight: bold;
+z-index: 1;
+position: absolute;
+color:rgb(201, 45, 24);
+  }
+
 
 @media only screen and (max-width: 600px) {
   /* CSS aqui */
@@ -38,6 +60,21 @@
     color:rgb(155, 155, 26);
     font-size: 0.7em;
     font-family: 'Inter', sans-serif;
+}
+
+.text-banner{
+  
+}
+
+.textbanner p{
+
+font-size: 0.7em;
+text-align: center;
+
+}
+
+.background-img{
+    height: 30vh;
 }
 
 }
